@@ -1,15 +1,15 @@
 ---
 import GitHub from "./icons/GitHub.astro"
-import NextJS from "./icons/NextJS.astro"
+import Astr from "./icons/Astr.astro"
 import Tailwind from "./icons/Tailwind.astro"
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
 
 const TAGS = {
   NEXT: {
-    name: "Next.js",
+    name: "Astro",
     class: "bg-black text-white",
-    icon: NextJS,
+    icon: Astr,
   },
   TAILWIND: {
     name: "Tailwind CSS",
@@ -19,20 +19,20 @@ const TAGS = {
 }
 const PROJECTS = [
   {
-    title: "SVGL - A beautiful library with SVG logos",
+    title: "Sin Mayores Etiquetas",
     description:
-      "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://svgl.vercel.app/",
-    github: "https://github.com/pheralb/svgl",
-    image: "/projects/svgl.webp",
+      "Sitio para la concientización de los estereotipos que se tienen o se generan con las personas de la tercera edad.",
+    link: "https://sinmayoresetiquetas.netlify.app/",
+    github: "https://github.com/AlexisFlo/sin-mayores-etiquetas",
+    image: "/projects/sinmayo.webp",
     tags: [TAGS.NEXT, TAGS.TAILWIND],
   },
   {
-    title: "AdventJS - Retos de programación con JavaScript y TypeScript",
+    title: "El Mayor",
     description:
-      "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://adventjs.dev",
-    image: "/projects/adventjs.webp",
+      "Sitio web de un centro de apoyo para personas de la tercera edad.",
+    link: "https://elmayor.netlify.app/",
+    image: "/projects/elmayo.webp",
     tags: [TAGS.NEXT, TAGS.TAILWIND],
   },
 ]
